@@ -6,7 +6,7 @@ const orderSlice = createSlice({
     name: 'orders',
     initialState: {
         data: [],
-        status: "idle", // 👈 important
+        status: "idle",
         error: null,
         search: "",
         sort: "none",
