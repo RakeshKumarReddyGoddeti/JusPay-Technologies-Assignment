@@ -7,7 +7,6 @@ export const fetchOrderList = createAsyncThunk(
     if (!response.ok) {
       throw new Error("Failed to fetch orders");
     }
-    const data = await response.json();
-    return data;
+    return await response.json();
   }
 );
