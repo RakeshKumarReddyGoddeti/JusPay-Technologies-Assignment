@@ -1,0 +1,41 @@
+.orders-container {
+  width: 100%;
+  padding: 20px;
+  margin-top: 30px;
+  font-family: sans-serif;
+}
+
+.controls {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+.controls input,
+.controls select {
+  padding: 6px 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.orders-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.orders-table th,
+.orders-table td {
+  text-align: left;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.orders-table th {
+  background: #f9f9f9;
+}
+
+.orders-table tbody tr:hover {
+  background-color: #e6f2ff;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}

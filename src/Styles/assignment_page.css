@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.assignment_page {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: #171717;
+}
+
+.assignment_button {
+    position: relative;
+    background-color: #ffe100;
+    color: black;
+    width: 250px;
+    height: 45px;
+    top: 80px;
+    left: 150px;
+    right: 0;
+    font-size: 20px;
+    z-index: 9;
+    font-family: 'Space Mono', monospace;
+    text-transform: uppercase;
+    border-radius: 12px;
+    cursor: pointer;
+    border: none;
+    box-shadow: 6px 6px 2px grey;
+}
+
+.assignment_button:active {
+    box-shadow: 3px 3px 2px grey;
+    transform: translateY(4px);
+}
+
+.ui_developer {
+    position: relative;
+    width: 750px;
+    height: 34px;
+    top: 160px;
+    left: 150px;
+    z-index: 9;
+    font-family: 'Sora', sans-serif;
+    font-weight: 700;
+    font-size: 75px;
+    line-height: 110px;
+    letter-spacing: 0cap;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.vector_rectangles {
+    position: absolute;
+    top: 100px;
+    left: 120px;
+    z-index: 0;
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(9, 1fr);
+    width: 350px;
+    height: 300px;
+    opacity: 70%;
+    border-radius: 50%;
+    overflow: hidden;
+    background: #171717;
+}
+
+.vector_rectangles .rectangle {
+    border: 2px solid #323131;
+}
+
+.company {
+    position: relative;
+    width: 155px;
+    height: 53px;
+    top: 450px;
+    left: 150px;
+    opacity: 70%;
+    font-family: 'Space Mono', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+    line-height: 100%;
+    letter-spacing: 0cap;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.company_name {
+    position: relative;
+    width: 772px;
+    height: 53px;
+    top: 440px;
+    left: 150px;
+    font-family: 'Space Mono', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+    line-height: 100%;
+    letter-spacing: 0cap;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+.ellipse_1 {
+    position: absolute;
+    width: 350px;
+    height: 400px;
+    bottom: -45%;
+    right: 100px;
+    background: #A287F4;
+    filter: blur(50px);
+    z-index: 1;
+    border-radius: 50%;
+    transform: rotate(33.88deg);
+}
+
+.ellipse_2 {
+    position: absolute;
+    width: 350px;
+    height: 400px;
+    top: -50%;
+    left: 30%;
+    background: #12E6C8;
+    filter: blur(80px);
+    z-index: 1;
+    border-radius: 50%;
+    transform: rotate(22.69deg);
+}

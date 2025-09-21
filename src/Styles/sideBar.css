@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+.name_badge {
+    display: flex;
+    width: 100%;
+    margin: 0;
+    border-radius: 8px;
+    padding: 4px;
+}
+
+.profile_photo {
+    width: 35px;
+    height: 35px;
+    border-radius: 70%;
+}
+
+.name {
+    font-size: 14px;
+    font-style: normal;
+    font-family: 'Inter', sans-serif;
+    line-height: 20px;
+    font-weight: 400;
+    margin: auto 5px auto 15px;
+}
+
+.favourites {
+    padding-bottom: 12px;
+    width: 100%;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.group {
+    border: none;
+    padding: 4px 0px;
+    width: 100%;
+    background-color: white;
+}
+
+.favourite_button {
+    width: 45%;
+    border: none;
+    height: 28px;
+    border-radius: 8px;
+    padding: 4px 8px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-right: 10px;
+    background-color: white;
+    color: var(--black-40, rgba(28, 28, 28, 0.4));
+}
+
+.recently_button {
+    width: 45%;
+    border: none;
+    height: 28px;
+    border-radius: 8px;
+    padding: 4px 8px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    background-color: white;
+    color: var(--black-40, rgba(28, 28, 28, 0.4));
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    list-style-type: disc;
+    color: grey;
+    margin-left: 40px;
+}
+
+.item {
+    padding: 5px 5px;
+    color: black
+}
+
+.item:hover {
+    background-color: rgb(240, 237, 237);
+    border-radius: 10px;
+}
+
+.item::marker {
+    color: grey
+}
+
+.dashboard {
+    padding-bottom: 12px;
+    width: 100%;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.dashboard_button {
+    border: none;
+    height: 28px;
+    border-radius: 8px;
+    padding: 4px 8px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    color: var(--black-40, rgba(28, 28, 28, 0.4));
+    background-color: white;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.triangle-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.triangle-list .dashboard_item::before {
+    content: "";
+    position: relative;
+    margin: 5px 5px 0 0;
+    border-style: solid;
+    border-width: .12em .12em 0 0;
+    display: inline-block;
+    height: .5em;
+    vertical-align: top;
+    width: .5em;
+    transition: all .3s ease-in-out;
+    color: grey;
+    font-size: medium;
+    transform: rotate(45deg);
+}
+
+.dashboard_item {
+    display: flex;
+    gap: 5px;
+    padding: 8px 10px 8px 20px;
+    letter-spacing: 0.5px;
+}
+
+.dashboard_item:hover {
+    background-color: rgb(240, 237, 237);
+    border-radius: 10px;
+}
+
+.dashboard_item svg {
+    color: black;
+    font-size: 20px;
+    margin-right: 3px;
+}
+
+.pages {
+    padding-bottom: 12px;
+    width: 100%;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.pages_button {
+    border: none;
+    height: 28px;
+    border-radius: 8px;
+    padding: 4px 8px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    color: var(--black-40, rgba(28, 28, 28, 0.4));
+    background-color: white;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.pages_item {
+    display: flex;
+    gap: 5px;
+    padding: 8px 10px 8px 20px;
+    letter-spacing: 0.5px;
+}
+
+.pages_item:hover {
+    background-color: rgb(240, 237, 237);
+    border-radius: 10px;
+}
+
+.triangle-list .pages_item::before {
+    content: "";
+    position: relative;
+    margin: 5px 5px 0 0;
+    border-style: solid;
+    border-width: .12em .12em 0 0;
+    display: inline-block;
+    height: .5em;
+    vertical-align: top;
+    width: .5em;
+    transition: all .3s ease-in-out;
+    color: grey;
+    font-size: medium;
+    transform: rotate(45deg);
+}
+
+.pages_item svg {
+    color: black;
+    font-size: 20px;
+    margin-right: 3px;
+}
+
+.triangle-list .pages_sub_list {
+    width: auto;
+    list-style-type: none;
+    margin: 2px 2px 5px 55px;
+    padding: 5px 15px;
+}
+
+.triangle-list .pages_sub_list:hover {
+    background-color: rgb(240, 237, 237);
+    border-radius: 10px; 
+}
