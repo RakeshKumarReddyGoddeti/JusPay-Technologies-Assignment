@@ -38,6 +38,7 @@ function OrdersTable() {
 
   return (
     <div className="orders-container">
+      <h3 className="orders"> Orders </h3>
       <div className="controls">
         <input
           type="text"
